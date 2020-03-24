@@ -1,0 +1,122 @@
+.background {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+p, ul, li, h3, h5, h6 {
+  margin: 5px;
+}
+
+.section {
+  box-sizing: border-box;
+  background-color: rgb(243, 241, 241);
+  opacity: 1;
+  margin: 15px;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.section img {
+  opacity: 1.0;
+  height: 200px;
+  border-radius:100px;
+  margin: 20px;
+}
+
+.section a {
+  text-decoration: none;
+  color: black;
+}
+
+.section a:hover {
+  text-decoration: none;
+  color: rgb(151, 3, 3);
+}
+
+.homeNav {
+  background-color: rgb(71, 70, 70);
+}
+
+ul {
+  margin: 0px;
+}
+
+.navli {
+  display: inline-block;
+  padding: 0px 0px;
+  --navlinkColor: white;
+}
+
+.dropdown {
+  display: inline-block;
+  padding: 0px 0px;
+  --navlinkColor: white;
+  --buttonColor: rgb(71, 70, 70);
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--navlinkColor);
+}
+
+button {
+  margin: 0;
+  border: none;
+  padding: 15px 20px;
+  background-color: rgb(71, 70, 70);
+}
+
+button:hover {
+  background-color: rgb(197, 197, 197);
+  --navlinkColor: rgb(71, 70, 70);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(197, 196, 196);
+}
+
+.dropdown-content:hover {
+  --buttonColor: rgb(197, 196, 196);
+}
+
+
+.dropdown-content a {
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: smaller;
+}
+
+.dropdown-content a:hover {
+  overflow: hidden;
+  background-color: rgb(163, 163, 163);
+  --buttonColor: rgb(197, 196, 196);
+}
+
+.dropdown-btn {
+  color: var(--navlinkColor);
+  background-color: var(--buttonColor);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content {
+  height: 600px;
+}
+
+.resumeList {
+  list-style: square;
+} 
+
