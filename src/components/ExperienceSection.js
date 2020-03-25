@@ -10,7 +10,7 @@ export default function ExperienceSection() {
             <p><i>React Developer </i></p>
             <ul>
                 <li className='resumeList'>Engaged in a development program where I was able to work on projects using the following technologies: 
-                        React Essentials, Modern React with Redux, HTML5, CSS3, and JavaScript, Microsoft SQL, JSON, NPM, D3.js, Node JS, , Rest API and Webservices, MongoDB </li>
+                        React Essentials, Modern React with Redux, HTML5, CSS3, and JavaScript, Microsoft SQL, JSON, NPM, D3.js, Node JS, Rest API and Webservices, MongoDB </li>
             </ul>
 
             <p><b>Rainier Scholars</b>- Seattle, WA   July 2020 - January 2020 </p>
@@ -20,7 +20,7 @@ export default function ExperienceSection() {
                     Taught young student the basics of coding with TechSmart’s drag and drop coding language Skylark  
                 </li>
                 <li className='resumeList'>
-                    Helped to develop a curriculum for improving computer skills for children, such as emailing, file system management, using a word processor. 
+                    Helped to develop a curriculum for improving computer skills for children, such as emailing, file system management, and using a word processor. 
                 </li>
             </ul>
         </div>

@@ -14,7 +14,7 @@ export default function ProjectsSection() {
                 </li>
                 <li className='resumeList'>
                     Designed and implemented the user interface and matching algorithm using Electron,
-                    MySQL, HTML, CSS, JavaScript, NPM, and JSON.
+                    MySQL, HTML, CSS, JavaScript, NPM, and JSON
                 </li>
             </ul>
 
