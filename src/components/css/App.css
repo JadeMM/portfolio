@@ -1,19 +1,9 @@
-.background {
-  background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow: hidden;
-}
-
+/* Manages section appearence in all components */
 p, ul, li, h3, h5, h6 {
   margin: 5px;
 }
 
 .section {
-  box-sizing: border-box;
   background-color: rgb(243, 241, 241);
   opacity: 1;
   margin: 15px;
@@ -38,30 +28,31 @@ p, ul, li, h3, h5, h6 {
   color: rgb(151, 3, 3);
 }
 
+/* Manages navigation bar */
 .homeNav {
   background-color: rgb(71, 70, 70);
 }
 
-ul {
+.homeNav ul {
   margin: 0px;
 }
 
 .navli {
   display: inline-block;
-  padding: 0px 0px;
+  padding: 0px;
   --navlinkColor: white;
 }
 
 .dropdown {
   display: inline-block;
   padding: 0px 0px;
-  --navlinkColor: white;
+  --droplinkColor: white;
   --buttonColor: rgb(71, 70, 70);
 }
 
-.navLink {
-  text-decoration: none;
-  color: var(--navlinkColor);
+.dropdown:hover {
+  --droplinkColor: rgb(71, 70, 70);
+  --buttonColor: rgb(197, 197, 197);
 }
 
 button {
@@ -76,6 +67,17 @@ button:hover {
   --navlinkColor: rgb(71, 70, 70);
 }
 
+.navLink {
+  text-decoration: none;
+  color: var(--navlinkColor);
+}
+
+.dropdown-btn {
+  color: var(--droplinkColor);
+  background-color: var(--buttonColor);
+}
+
+/* Manages drop-down menu */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -86,7 +88,6 @@ button:hover {
 .dropdown-content:hover {
   --buttonColor: rgb(197, 196, 196);
 }
-
 
 .dropdown-content a {
   overflow: hidden;
@@ -103,20 +104,9 @@ button:hover {
   --buttonColor: rgb(197, 196, 196);
 }
 
-.dropdown-btn {
-  color: var(--navlinkColor);
-  background-color: var(--buttonColor);
-}
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.content {
-  height: 600px;
-}
 
-.resumeList {
-  list-style: square;
-} 
 
